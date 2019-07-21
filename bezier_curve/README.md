@@ -16,7 +16,7 @@ apt-get update && apt-get install -y g++ freeglut3-dev libglm-dev
 
 Build
 ```
-g++ -std=c++11 main.cpp -lGL -lGLU -lGLUT -o main
+g++ -std=c++11 main.cpp -lGL -lGLU -lglut -o main
 ```
 
 Run binary
@@ -36,3 +36,6 @@ Run binary
 ```
 ./main
 ```
+
+#### Licence
+[MIT license](https://opensource.org/licenses/MIT)

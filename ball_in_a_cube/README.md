@@ -2,14 +2,18 @@
 
 Basic OpenGL drawing with camera movement and fractals drawn on the inner walls of cube.
 
-W S A D - Movement
-c - Toggle camera mode between wall / follow mode
-+/- Add/Remove square tiles on the floor
-Mouse move - Look around when in "follow mode"
-ESC - exit
-
 <p align="center"><img src="https://raw.githubusercontent.com/MichalGallovic/Computer-Graphics/master/ball_in_a_cube/assets/preview.gif"></p>
 
+#### Controls
+W S A D - Movement
+
+c - Toggle camera mode between wall / follow mode
+
++/- Add/Remove square tiles on the floor
+
+Mouse move - Look around when in "follow mode"
+
+ESC - exit
 
 #### Build and run
 
@@ -22,7 +26,7 @@ apt-get update && apt-get install -y g++ freeglut3-dev libglm-dev
 
 Build
 ```
-g++ -std=c++11 main.cpp -lGL -lGLU -lGLUT -o main
+g++ -std=c++11 main.cpp -lGL -lGLU -lglut -o main
 ```
 
 Run binary
