@@ -8,7 +8,7 @@ c - Toggle camera mode between wall / follow mode
 Mouse move - Look around when in "follow mode"
 ESC - exit
 
-<p align="center"><img src="https://raw.githubusercontent.com/MichalGallovic/Computer-Graphics/master/ball_in_a_cube/assets/preview.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/MichalGallovic/Computer-Graphics/master/ball_in_a_cube/assets/preview.gif"></p>
 
 
 #### Build and run
